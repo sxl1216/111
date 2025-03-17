@@ -37,12 +37,17 @@ Ps：哪怕不打算汉化，只打算用ai整点涩涩也可以看下此教程�
 4.  创建一个新的 API 密钥。
 5.   密钥创建完成后，**复制** 你的 API 密钥。 请妥善保管，不要泄露。
 6.  **检查免费额度:**  如果页面下方显示您的方案不是免费的，请**刷新页面**。 刷新后，您的方案应显示为免费。
-这样你就得到了能够免费使用Gemini 2.0 Pro的密钥，理论上限是每天50次，但我没使用到上限过，所以我并不清楚具体是多少次。但另外一种方法可提供每日200次Pro模型
+
+这样你就得到了能够免费使用Gemini 2.0 Pro的密钥，理论上限是每天50次（不要觉得少，哪怕一次只翻译10条也是500条了），但我没使用到上限过，所以我并不清楚具体是多少次。但另外一种方法可提供每日200次Pro模型
 
 以下任选其一加入Host文件中便可正常使用,没用请换一个试试
+
 47.103.15.240 generativelanguage.googleapis.com
+
 142.251.223.35 generativelanguage.googleapis.com
+
 120.26.207.106 generativelanguage.googleapis.com
+
 都失效的话可使用(https://github.com/Ponderfly/GoogleTranslateIpCheck),在config.json里添加generativelanguage.googleapis.com扫描
 
 
