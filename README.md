@@ -81,7 +81,7 @@ SillyTavern（简称ST）是一个本地安装的用户界面，它允许你与�
 
 1. 还是安装NodeJS
 
-2. 来到(https://github.com/SillyTavern/SillyTavern/releases)往下翻
+2. 来到(https://github.com/SillyTavern/SillyTavern/releases) 往下翻
 
 3. 点击图片中的圈起来的文件下载,然后解压,解压后双击 `Start.bat` 文件就可以了
 ![image](https://github.com/user-attachments/assets/037b8fd9-992c-4b45-9497-19288f4acde1)
