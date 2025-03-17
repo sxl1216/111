@@ -1,0 +1,17 @@
+{
+    "id": "23f5d833-b6f7-411a-aa7c-ca766e961d9e",
+    "scriptName": "移除多余内容",
+    "findRegex": "/(<disclaimer>.*?</disclaimer>)|((.*?)</Assistant>)|(<!-- Statements Refused -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
