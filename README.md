@@ -10,6 +10,8 @@
 
 因此，使用AI辅助翻译对日语基础要求不高。 即使像我一样，仅能听懂日语而无法阅读的人，也可以通过逐句听取并借助机翻软件进行核对，来确认翻译的准确性。实践表明，AI在意义翻译上出错的情况极少。
 
+Ps：哪怕不打算汉化，只打算用ai整点涩涩也可以看下此教程（）
+
 ## 1. 基础需求
 开始翻译，您需要准备两样工具：可用的AI模型以及SillyTavern
 
@@ -40,11 +42,48 @@
 
 操作步骤如下：
 
-1.  访问 [openrouter](https://openrouter.ai/)
-2.  点击右上角的Sign in登录，可使用你的谷歌账号登录。
-3.  然后来到(https://openrouter.ai/settings/keys)创建一个新的 API 密钥。
-5.  密钥创建完成后，**复制** 您的 API 密钥。 请妥善保管，不要泄露。
+1.  **访问 [openrouter](https://openrouter.ai/)**
+2.  **点击右上角的Sign in登录，可使用你的谷歌账号登录。**
+3.  **然后来到(https://openrouter.ai/settings/keys)创建一个新的 API 密钥。**
+5.  **密钥创建完成后，**复制** 您的 API 密钥。 请妥善保管，不要泄露。**
 
 以上两种密钥的具体使用方式后续会讲
 
 ## 1.2 SillyTavern
+
+SillyTavern（简称ST）是一个本地安装的用户界面，它允许你与文本生成的大型语言模型（LLMs）、图像生成引擎和TTS语音模型进行交互。目标是尽可能地赋予用户对其大型语言模型提示尽可能多的实用性和控制权，并将陡峭的学习曲线视为乐趣的一部分。
+
+（反正你只要理解这是一个可以方便破除ai限制或添加一些要求的玩意，主要用处是使用ai进行角色扮演，包括涩涩）
+
+通过Git安装SillyTavern
+
+安装步骤
+
+1. **安装NodeJS(https://nodejs.org/en) (推荐安装最新的LTS版本)**
+
+2. **安装Git for Windows(https://gitforwindows.org/)**
+
+3. **打开Windows资源管理器** (Win+E)
+
+4. **浏览或创建一个文件夹**，该文件夹不受Windows控制或监控。(例如：C:\MySpecialFolder)
+
+5. **在该文件夹内打开命令提示符**。方法是点击顶部地址栏，输入`cmd`，然后按Enter键。
+
+6. **当黑色框 (命令提示符) 弹出后**，在其中输入**以下命令之一**，然后按Enter键:
+    - **发布分支:** `git clone https://github.com/SillyTavern/SillyTavern -b release`
+    - **预发布分支:** `git clone https://github.com/SillyTavern/SillyTavern -b staging`
+
+7. **克隆完成后**，双击 `Start.bat` 文件以使NodeJS安装其依赖项。
+
+8. 服务器将启动，SillyTavern将在您的浏览器中弹出。
+
+如果不会使用以上操作进行安装,下面则是一个简易版本的安装步骤,缺点是**无法自动更新**
+
+1. 还是安装NodeJS
+
+2. 来到(https://github.com/SillyTavern/SillyTavern/releases)往下翻
+
+3. 点击图片中的圈起来的文件下载,然后解压,解压后双击 `Start.bat` 文件就可以了
+![image](https://github.com/user-attachments/assets/037b8fd9-992c-4b45-9497-19288f4acde1)
+
+## 2. 正式开始前的设置
