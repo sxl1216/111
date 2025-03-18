@@ -51,7 +51,7 @@ Ps：哪怕不打算汉化，只打算用ai整点涩涩也可以看下此教程�
 都失效的话可使用(https://github.com/Ponderfly/GoogleTranslateIpCheck),在config.json里添加generativelanguage.googleapis.com扫描
 
 
-第二种方案是使用第三方网址提供的密钥(目前这个方式暂时有点问题,容易莫名其妙的截断)
+第二种方案是使用第三方网址提供的密钥(目前这个api暂时有点问题,容易莫名其妙的截断，但有时又能正常输出，很奇怪)
 
 操作步骤如下：
 
